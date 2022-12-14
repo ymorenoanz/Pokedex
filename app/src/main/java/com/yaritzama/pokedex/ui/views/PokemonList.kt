@@ -62,5 +62,4 @@ fun SearchBar(modifier: Modifier,
               onSearch: (String) -> Unit = {}){
 
     var text by remember { mutableStateOf("") }
-
 }
